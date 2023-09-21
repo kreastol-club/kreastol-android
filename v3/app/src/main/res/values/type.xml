@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Widget.Kreastol.Text.Heading1" parent="Widget.Kreastol.Text">
+        <item name="android:textSize">48sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="fontFamily">@font/custom_special_epic</item>
+    </style>
+
+    <style name="Widget.Kreastol.Text.Heading2" parent="Widget.Kreastol.Text">
+        <item name="android:textSize">26sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="fontFamily">@font/custom_bold</item>
+    </style>
+    <style name="Widget.Kreastol.Text.Heading3" parent="Widget.Kreastol.Text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="fontFamily">@font/custom_bold</item>
+    </style>
+
+
+    <style name="Widget.Kreastol.Text.Body1" parent="Widget.Kreastol.Text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="fontFamily">@font/custom_regular</item>
+    </style>
+
+    <style name="Widget.Kreastol.Text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+
+
+</resources>

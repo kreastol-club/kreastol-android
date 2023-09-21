@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kreastol Community</string>
+    <string name="powerd_by">Napravio Jošhua Hegediš</string>
+    <string name="skip_name">Preskoči</string>
+
+    <!-- OnboardingFragments Screens -->
+    <!-- _________Fragment 1__________ -->
+    <string name="fragment1_bar1_name">Dobrodošli u</string>
+    <string name="fragment1_bar2_name">Kreastolova aplikacija</string>
+    <string name="fragment1_question_name">Šta je u ovoj aplikaciji</string>
+    <string name="fragment1_get_started_name">Početi</string>
+
+    <!-- _________Fragment 2__________ -->
+    <string name="fragment2_title_name">Budite u toku</string>
+    <string name="fragment1_description_name">Doznajte najnovija ažuriranja radionica. Ne propustite ništa!</string>
+
+    <!-- _________Fragment 3__________ -->
+    <string name="fragment3_title_name">Zaradite bodove</string>
+    <string name="fragment3_description_name">Poene lojalnosti možete zaraditi dolaskom na naše radionice, a zatim osvojiti sjajne nagrade</string>
+
+
+    <!--DrawerArray-->
+    <string name="drawer_my_profile">Moj profil</string>
+    <string name="drawer_Home">Kuća</string>
+    <string name="drawer_Posts">Postovi</string>
+    <string name="drawer_Gallery">Galerija</string>
+    <string name="drawer_Messages">Poruke</string>
+    <string name="drawer_Settings">Podešavanja</string>
+    <string name="drawer_covidinfo">Covid Info</string>
+    <string name="drawer_login">Prijavite se</string>
+    <string name="drawer_logout">Odjaviti se</string>
+    <string name="drawer_admin">Upravljati</string>
+
+    <!-- Retailer-->
+    <string name="retailer_title">Ne propustite\n ništa!</string>
+    <string name="retailer_tag_line">Ako se prijavite, pomoću ove aplikacije možete postići više!</string>
+    <string name="retailer_login">Prijavite se</string>
+    <string name="retailer_signUp">Prijavi se</string>
+    <string name="retailer_how_this_works">Kako ovo funkcioniše?</string>
+
+    <!-- Login ****** Register-->
+    <string name="retailer_login_username">Korisničko ime</string>
+    <string name="retailer_login_password">Lozinka</string>
+    <string name="retailer_login_rememberme">Seti me se</string>
+    <string name="retailer_login_forgottenpasword">Zaboravili ste lozinku?</string>
+    <string name="retailer_login_create_account">Napravi novi \n nalog</string>
+    <string name="retailer_signup_first_name">Ime</string>
+    <string name="retailer_signup_last_name">Prezime</string>
+    <string name="retailer_signup_password">Lozinka</string>
+    <string name="retailer_signup_confirm_passowd">Potvrdi lozinku</string>
+    <string name="retailer_signup_username">Korisničko ime</string>
+    <string name="retailer_signup_email">Email</string>
+    <string name="retailer_signup_next">Sledeći</string>
+    <string name="retailer_signup_choose_gender">Odaberite Pol</string>
+    <string name="retailer_signup_male_gender">Muški</string>
+    <string name="retailer_signup_female_gender">Žensko</string>
+    <string name="retailer_signup_select_age">Izaberite svoje doba</string>
+
+    <!-- Register Errors-->
+    <string name="retailer_signup_error_cannot_be_empty">Field can not be empty!</string>
+    <string name="retailer_signup_error_long_username">Username is too Long!</string>
+    <string name="retailer_signup_error_short_username">Username is too Short!</string>
+    <string name="retailer_signup_error_no_whitespace_username">No whitespaces are allowed!</string>
+    <string name="retailer_signup_error_no_gender_selected">Please choose your gender</string>
+    <string name="retailer_signup_error_wrong_age_selected">User is too young to register!</string>
+    <string name="retailer_signup_error_password_at_least_size">Password must contain at least 6 characters!</string>
+    <string name="retailer_signup_error_password_at_least_chars">Password must contains letters or numbers only!</string>
+    <string name="retailer_signup_error_passwords_match">Passwords don\'t match!</string>
+
+    <!--Please log in on the profile fragment -->
+    <string name="profile_please_attention">Da biste koristili ovu stranicu, prijavite se ili prijavite.</string>
+
+    <!--Hello on the profile fragment -->
+    <string name="profile_morning">Dobro jutro,</string>
+    <string name="profile_day">Dobar dan,</string>
+    <string name="profile_evening">Dobro veče,</string>
+
+
+    <!--Honorific on the profile fragment -->
+    <string name="honorific_male">Gp.</string>
+    <string name="honorific_female">Gs.</string>
+
+    <!--User Details on the profile fragment -->
+    <string name="profile_user_information_label">Korisničke informacije</string>
+    <string name="profile_user_information_edit_label">Modifikovati</string>
+    <string name="profile_first_name">Ime</string>
+    <string name="profile_last_name">Prezime</string>
+    <string name="profile_email_name">Email</string>
+    <string name="profile_save_changes">Sačuvaj izmene</string>
+    <string name="profile_cancel_changes">Otkazati</string>
+
+    <!-- Gallery Itme-->
+    <string name="gallery_item_option_title">Naslov</string>
+    <!--    <string name="title_activity_main">MainActivity</string>-->
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Sledeći</string>
+    <string name="previous">Prethodna</string>
+
+
+    <!-- Add New Post Dialog-->
+    <string name="add_post_dialog_title">Naslov</string>
+    <string name="add_post_dialog_body">Body</string>
+    <string name="add_post_dialog_send_post">Postovati</string>
+    <string name="add_post_dialog_cancel_post">Otkazati</string>
+    <string name="add_post_dialog_tag">Tags</string>
+    <string name="add_post_dialog_category">Kategorija</string>
+    <string name="add_post_dialog_post_error">Nešto je krenulo naopako!</string>
+
+    <!-- Add New Image Dialog-->
+    <string name="add_image_select_image">Izaberite Slika</string>
+    <string name="add_image_upload_image">Otpremiti</string>
+    <string name="add_image_title">Naslov</string>
+    <string name="add_image_group">Image Group</string>
+    <string name="add_image_group_helper">*opcionalno (utiče na veb prikaz)</string>
+
+
+
+    <!--Settings Fragmet-->
+    <string name="settings_fragmet_language_category">Jezik</string>
+    <string name="settings_fragmet_language_choose_language">Izaberite jezik</string>
+    <string name="settings_fragmet_theme_category">Boja</string>
+    <string name="settings_fragmet_theme_select_title">Tema</string>
+    <string name="settings_fragmet_theme_mode_select">Opcije mračnog režima</string>
+    <string name="settings_fragmet_theme_force_dark">Tamni režim</string>
+    <string name="settings_fragmet_theme_force_dark_on">On</string>
+    <string name="settings_fragmet_theme_force_dark_off">Off</string>
+    <string name="settings_fragmet_theme_auto_select">Automatski tamni režim</string>
+    <string name="settings_fragmet_theme_system_based">Sistemski zasnovan</string>
+
+    <string name="choose_a_language">Izaberite jezik</string>
+    <string name="fragment2_description_name">Kada ste prijavljeni, možete da objavite ili otpremite sliku na kartici Postovi i Galerija</string>
+    <string name="profile_user_information_points_sum">Poeni: %d</string>
+    <string name="add_image_upload_image_in_progress">Otpremitanje</string>
+    <string name="enter_for_verification">6 digit broj sa vaše email</string>
+
+</resources>

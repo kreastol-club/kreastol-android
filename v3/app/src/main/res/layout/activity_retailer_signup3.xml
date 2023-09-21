@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.LoginSignup.SignUp3rdClass"
+    android:background="?attr/colorSurface"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            app:tint="?attr/colorAccent"
+            android:id="@+id/signup_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/general_back_button"
+            android:transitionName="transition_back_arrow_btn"
+            android:onClick="callBackButtonClicked"/>
+
+        <TextView
+            android:id="@+id/signup_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/custom_special_epic"
+            android:text="@string/retailer_signUp"
+            android:textAllCaps="true"
+            android:textSize="40sp"
+            android:transitionName="transition_title_text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/retailer_signup_password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeColor="?attr/colorPrimary"
+                app:boxStrokeWidthFocused="2.5dp"
+                app:hintTextColor="?attr/colorPrimary"
+                android:textColorHint="?attr/colorPrimary"
+                app:endIconMode="password_toggle"
+                app:endIconTint="?attr/colorPrimary"
+                app:startIconDrawable="@drawable/lock_icon"
+                app:startIconTint="?attr/colorPrimary" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorPrimary"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_password_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/retailer_signup_confirm_passowd"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeColor="?attr/colorPrimary"
+                app:boxStrokeWidthFocused="2.5dp"
+                app:hintTextColor="?attr/colorPrimary"
+                android:textColorHint="?attr/colorPrimary"
+                app:endIconMode="password_toggle"
+                app:endIconTint="?attr/colorPrimary"
+                app:startIconDrawable="@drawable/lock_icon"
+                app:startIconTint="?attr/colorPrimary" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/colorPrimary"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup_signup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/retailer_signUp"
+            android:layout_marginTop="25dp"
+            android:elevation="10dp"
+            android:fontFamily="@font/custom_extra_bold"
+            android:onClick="callSignUpNClicked"/>
+        <Button
+            android:id="@+id/signup_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/retailer_login"
+            android:background="#00000000"
+            android:layout_marginTop="20dp"
+            android:textColor="?attr/colorAccent"
+            android:elevation="10dp"
+            android:fontFamily="@font/custom_bold"
+            android:transitionName="transition_login_btn"
+            android:onClick="callToLogin"/>
+    </LinearLayout>
+</ScrollView>

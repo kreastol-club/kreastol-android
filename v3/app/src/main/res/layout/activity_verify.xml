@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".User.LoginSignup.Verify">
+
+    <TextView
+        android:textSize="40sp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:text="@string/enter_for_verification"
+        style="@style/Widget.Kreastol.Text.Heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:singleLine="true"
+        android:text="______"
+        android:inputType = "number"
+        android:letterSpacing="0.6"
+        android:textSize="40sp"
+        tools:ignore="Autofill,HardcodedText" />
+    <Button
+        android:onClick="callVerify"
+        android:layout_marginTop="20dp"
+        android:text="@string/submit_users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

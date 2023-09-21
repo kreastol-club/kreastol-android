@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.LoginSignup.SignUp"
+    android:background="@color/primary1"
+    android:padding="30dp"
+    android:transitionName="transition_signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/signup_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/general_back_button"
+            android:transitionName="transition_back_arrow_btn"
+            android:onClick="callBackButtonClicked"/>
+
+        <TextView
+            android:id="@+id/signup_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/custom_special_epic"
+            android:text="@string/retailer_signUp"
+            android:textAllCaps="true"
+            android:textColor="@color/background1"
+            android:textSize="50sp"
+            android:transitionName="transition_title_text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/retailer_signup_last_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeColor="@color/background1"
+                app:boxStrokeWidthFocused="2.5dp"
+                app:hintTextColor="@color/background1"
+                android:textColorHint="@color/background1"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/background1"
+                app:startIconDrawable="@drawable/name_icon"
+                app:startIconTint="@color/background1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background1"
+                    android:inputType="text"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/retailer_signup_first_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeColor="@color/background1"
+                app:boxStrokeWidthFocused="2.5dp"
+                app:hintTextColor="@color/background1"
+                android:textColorHint="@color/background1"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/background1"
+                app:startIconDrawable="@drawable/name_icon"
+                app:startIconTint="@color/background1" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background1"
+                    android:inputType="text"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/retailer_signup_username"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeColor="@color/background1"
+                app:boxStrokeWidthFocused="2.5dp"
+                app:hintTextColor="@color/background1"
+                android:textColorHint="@color/background1"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/background1"
+                app:startIconDrawable="@drawable/my_profile_icon"
+                app:startIconTint="@color/background1" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background1"
+                    android:inputType="text"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/retailer_signup_email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeColor="@color/background1"
+                app:boxStrokeWidthFocused="2.5dp"
+                app:hintTextColor="@color/background1"
+                android:textColorHint="@color/background1"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/background1"
+                app:startIconDrawable="@drawable/email_icon"
+                app:startIconTint="@color/background1" >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/background1"
+                    android:inputType="textEmailAddress"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup_next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/retailer_signup_next"
+            android:background="@color/background1"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/primary1"
+            android:elevation="10dp"
+            android:fontFamily="@font/custom_extra_bold"
+            android:transitionName="transition_next_btn"
+            android:onClick="callNextSignScreen"/>
+        <Button
+            android:id="@+id/signup_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/retailer_login"
+            android:background="#00000000"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/background1"
+            android:elevation="10dp"
+            android:fontFamily="@font/custom_extra_bold"
+            android:transitionName="transition_login_btn"
+            android:onClick="callToLogin"/>
+    </LinearLayout>
+</ScrollView>

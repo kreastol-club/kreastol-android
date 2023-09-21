@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Kreastol" parent="Base.Theme.Kreastol"/>
+    <style name="Base.Theme.Kreastol" parent="Base.Theme.MaterialThemeBuilder">
+        <!-- Primary brand color. -->
+        <item name="colorSurface">@color/kreastol_light</item>
+
+        <item name="colorPrimary">@color/kreastol_dark</item>
+        <item name="colorSecondary">@color/kreastol_dark_variant</item>
+
+        <item name="colorOnPrimary">@color/kreastol_light</item>
+        <item name="colorOnSecondary">@color/kreastol_light</item>
+
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorError">@color/color_error</item>
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <item name="android:buttonStyle">@style/Kreastol.Widget.Button</item>
+
+        <item name="buttonStyle">@style/Kreastol.Widget.Button</item>
+
+        <item name="android:textViewStyle">@style/Widget.Kreastol.Text</item>
+
+    </style>
+
+    <style name="Theme.Kreastol.Red.Pulse" parent="Base.Theme.Kreastol.Red.Pulse"/>
+    <style name="Base.Theme.Kreastol.Red.Pulse" parent="Base.Theme.MaterialThemeBuilder">
+        <!-- Primary brand color. -->
+        <item name="colorSurface">@color/red_pulse_light</item>
+
+        <item name="colorPrimary">@color/red_pulse_dark</item>
+        <item name="colorSecondary">@color/red_pulse_variant</item>
+
+        <item name="colorOnPrimary">@color/red_pulse_light</item>
+        <item name="colorOnSecondary">@color/red_pulse_light</item>
+
+        <item name="colorAccent">?attr/colorPrimary</item>
+
+
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <item name="android:buttonStyle">@style/Kreastol.Widget.Button</item>
+
+        <item name="buttonStyle">@style/Kreastol.Widget.Button</item>
+
+        <item name="android:textViewStyle">@style/Widget.Kreastol.Text</item>
+
+    </style>
+
+    <style name="Theme.Kreastol.Futuristic" parent="Base.Theme.Kreastol.Futuristic"/>
+    <style name="Base.Theme.Kreastol.Futuristic" parent="Base.Theme.MaterialThemeBuilder">
+        <!-- Primary brand color. -->
+        <item name="colorSurface">@color/futuristic_light</item>
+
+        <item name="colorPrimary">@color/futuristic_dark</item>
+        <item name="colorSecondary">@color/futuristic_dark_variant</item>
+
+        <item name="colorOnPrimary">@color/futuristic_light</item>
+        <item name="colorOnSecondary">@color/futuristic_light</item>
+
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorError">@color/color_error</item>
+
+
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <item name="android:buttonStyle">@style/Kreastol.Widget.Button</item>
+
+        <item name="buttonStyle">@style/Kreastol.Widget.Button</item>
+
+        <item name="android:textViewStyle">@style/Widget.Kreastol.Text</item>
+
+    </style>
+
+    <style name="Theme.Kreastol.Miku" parent="Base.Theme.Kreastol.Miku"/>
+    <style name="Base.Theme.Kreastol.Miku" parent="Base.Theme.MaterialThemeBuilder">
+        <!-- Primary brand color. -->
+        <item name="colorSurface">@color/miku_light</item>
+        <item name="colorPrimary">@color/miku_dark_green</item>
+        <item name="colorSecondary">@color/miku_light_green</item>
+        <item name="colorOnPrimary">@color/miku_light</item>
+        <item name="colorOnSecondary">@color/miku_pink</item>
+
+        <item name="colorAccent">@color/miku_pink</item>
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <item name="android:buttonStyle">@style/Kreastol.Widget.Button</item>
+        <item name="buttonStyle">@style/Kreastol.Widget.Button</item>
+        <item name="android:textViewStyle">@style/Widget.Kreastol.Text</item>
+
+    </style>
+
+    <style name="Base.Theme.MaterialThemeBuilder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor" tools:ignore="NewApi">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">?android:attr/colorBackground</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+        <item name="android:navigationBarDividerColor" tools:ignore="NewApi">?attr/colorControlHighlight</item>
+    </style>
+
+</resources>

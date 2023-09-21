@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorSurface"
+    android:padding="30dp"
+    tools:context=".User.DashboardFragments.MyProfileFragment">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/time_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="50dp"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_spalsh_background"
+                    android:backgroundTint="?attr/colorPrimary"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|bottom">
+
+                        <TextView
+                            android:id="@+id/profile_current_hello"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="@font/custom_special_epic"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:paddingHorizontal="50dp"
+                            android:text="Good evening"
+                            android:textColor="?attr/colorOnPrimary"
+                            android:textSize="40sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="clip_horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingStart="20dp">
+
+                                <TextView
+                                    android:id="@+id/profile_hello_username"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:fontFamily="@font/custom_bold"
+                                    android:text="Test nezet"
+                                    android:textColor="?attr/colorOnPrimary"
+                                    android:textSize="25sp" />
+
+<!--                                <TextView-->
+<!--                                    android:id="@+id/profile_hello_name2"-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_centerVertical="true"-->
+<!--                                    android:fontFamily="@font/custom_regular"-->
+<!--                                    android:text=""-->
+<!--                                    android:textColor="?attr/colorOnPrimary"-->
+<!--                                    android:textSize="20sp" />-->
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="20dp"
+                    android:fontFamily="@font/custom_semibold"
+                    android:text="@string/profile_user_information_label"
+                    android:textSize="30sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/user_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profile_user_information_points_sum"/>
+                </LinearLayout>
+                <RelativeLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/edit_general_button"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="callModifyUserData">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/profile_user_information_edit_label"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:layout_marginEnd="15dp"/>
+                        <ImageView
+                            android:id="@+id/modify_user_info"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_edit_round"
+                            app:tint="?attr/colorAccent"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_below="@id/edit_general_button"
+                        android:id="@+id/detail_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/profile_last_name_til"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:helperTextEnabled="false"
+                                app:hintTextColor="?attr/colorAccent"
+                                app:helperText="@string/profile_last_name"
+                                app:helperTextTextColor="?attr/colorAccent"
+                                app:helperTextTextAppearance="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                app:boxStrokeColor="@color/text_input_box_stroke"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/profile_last_name"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:enabled="false"
+                                    android:lines="1"
+                                    android:maxLength="20"
+                                    android:padding="5dp"
+                                    android:textSize="20sp"
+                                    android:fontFamily="@font/custom_regular"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/profile_first_name_til"
+                                android:layout_width="match_parent"
+                                app:helperTextEnabled="false"
+                                android:layout_height="wrap_content"
+                                app:helperText="@string/profile_first_name"
+                                app:helperTextTextAppearance="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                app:helperTextTextColor="?attr/colorAccent"
+                                app:boxStrokeColor="@color/text_input_box_stroke"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:layout_height="match_parent"
+                                    android:layout_width="match_parent"
+                                    android:id="@+id/profile_first_name"
+                                    android:enabled="false"
+                                    android:padding="5dp"
+                                    android:lines="1"
+                                    android:maxLength="20"
+                                    android:textSize="20sp"
+                                    android:fontFamily="@font/custom_regular"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/profile_email_til"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/profile_email"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:enabled="false"
+                                    android:padding="3dp"
+                                    android:textSize="20sp"
+                                    android:fontFamily="@font/custom_regular"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/profile_save_cancel_button"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:layout_centerInParent="true"
+                        android:layout_below="@id/detail_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/profile_cancel_button"
+                            android:onClick="callCancelEdit"
+                            android:layout_marginHorizontal="10dp"
+                            android:enabled="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="10sp"
+                            android:background="@drawable/custom_button_template"
+                            android:text="@string/profile_cancel_changes"/>
+                        <Button
+                            android:id="@+id/profile_save_button"
+                            android:onClick="callSaveEdit"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="10sp"
+                            android:background="@drawable/custom_button_template"
+                            android:text="@string/profile_save_changes"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="club.kreastol.community">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/title_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/title_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kreastol">
+
+        <activity android:name=".User.LoginSignup.Verify">
+            <intent-filter
+                android:autoVerify="true"
+                tools:targetApi="m">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="community.kreastol.club"
+                    android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.ManagePage" />
+        <activity android:name=".OnBoarding.OnBoarding" />
+        <activity android:name=".User.LoginSignup.RetailerStartupScreen" />
+        <activity android:name=".User.LoginSignup.Login" />
+        <activity android:name=".User.LoginSignup.SignUp" />
+        <activity android:name=".User.LoginSignup.SignUp2ndClass" />
+        <activity android:name=".User.LoginSignup.SignUp3rdClass" />
+        <activity
+            android:name=".User.UserDashboard"
+            android:configChanges="locale|orientation" />
+        <activity android:name=".Common.SpalshScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

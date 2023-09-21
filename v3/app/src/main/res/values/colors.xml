@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Univerzal colors-->
+    <color name="color_error">#FF6D6D</color>
+    <color name="color_success">#02BE4D</color>
+    <color name="color_special_interact">#0D84F7</color>
+    <color name="color_disabled">#C5C6C7</color>
+
+    <!--    Kreastol theme-->
+    <color name="kreastol_dark">#1F2833</color>
+    <color name="kreastol_dark_variant">#3F4853</color>
+    <color name="kreastol_light">#61FCF1</color>
+    <color name="kreastol_light_variant">#45A29E</color>
+
+    <!--    Red Pulse theme-->
+    <color name="red_pulse_dark">#5D001E</color>
+    <color name="red_pulse_light">#E3AFBC</color>
+    <color name="red_pulse_variant">#9A1750</color>
+
+    <!--    Futuristic-->
+    <color name="futuristic_dark">#2C3531</color>
+    <color name="futuristic_dark_variant">#116466</color>
+    <color name="futuristic_light">#FFCB9A</color>
+    <color name="futuristic_light_variant">#D9B08C</color>
+
+    <!--    Miku Theme-->
+    <color name="miku_light">#bec8d1</color>
+    <color name="miku_dark">#373b3e</color>
+    <color name="miku_pink">#e12885</color>
+    <color name="miku_dark_green">#137a7f</color>
+    <color name="miku_light_green">#86cecb</color>
+
+
+</resources>

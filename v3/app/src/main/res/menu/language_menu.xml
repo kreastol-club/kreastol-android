@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ja_lang"
+            android:title="@string/japanese_lang" />
+        <item
+            android:id="@+id/en_lang"
+            android:title="@string/english_lang" />
+        <item
+            android:id="@+id/hu_lang"
+            android:title="@string/hungarian_lang" />
+        <item
+            android:id="@+id/sr_lang"
+            android:title="@string/serbian_lang" />
+    </group>
+</menu>
