@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background1">#0b0c10</color>
+    <color name="primary1">#61fcf1</color>
+    <color name="secondary1">#368480</color>
+    <color name="secondary1_hollow">#3B368480</color>
+
+    <color name="miku_gray">#bec8d1</color>
+    <color name="miku_dark_gray">#373b3e</color>
+    <color name="miku_dark_gray_hollow">#7E373B3E</color>
+    <color name="miku_pink">#e12885</color>
+    <color name="miku_dark_green">#137a7f</color>
+    <color name="miku_light_green">#86cecb</color>
+</resources>

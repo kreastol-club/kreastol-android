@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="id_activityScreenTitles">
+       <item>@string/drawer_my_profile</item>
+       <item />
+       <item>@string/drawer_Home</item>
+       <item>@string/drawer_Posts</item>
+       <item>@string/drawer_Gallery</item>
+       <item>@string/drawer_Messages</item>
+       <item>@string/drawer_Settings</item>
+       <item />
+       <item>@string/drawer_logout</item>
+       <item />
+       <item>@string/drawer_covidinfo</item>
+   </string-array>
+   <array name="id_activityScreenIcons">
+       <item>@drawable/my_profile_icon</item>
+       <item>0</item>
+       <item>@drawable/home_icon</item>
+       <item>@drawable/post_icon</item>
+       <item>@drawable/picture_icon</item>
+       <item>@drawable/messenger_icon</item>
+       <item>@drawable/settings_icon</item>
+       <item>0</item>
+       <item>@drawable/logout_icon</item>
+       <item>0</item>
+       <item>@drawable/covid_icon</item>
+   </array>
+
+   <array name="id_miscIons">
+       <item>@drawable/login_icon</item>
+       <item>@drawable/logout_icon</item>
+       <item>@drawable/manage_icon</item>
+   </array>
+   <string-array name="id_miscTitles">
+       <item>@string/drawer_login</item>
+       <item>@string/drawer_logout</item>
+       <item>@string/drawer_admin</item>
+   </string-array>
+
+</resources>

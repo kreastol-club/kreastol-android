@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Kreastol Community</string>
+    <string name="powerd_by">Powered By Joshua Hegedus</string>
+    <string name="skip_name">Skip</string>
+
+    <!-- OnboardingFragments Screens -->
+    <!-- _________Fragment 1__________ -->
+    <string name="fragment1_bar1_name">Welcome to</string>
+    <string name="fragment1_bar2_name">Kreastol\'s App</string>
+    <string name="fragment1_question_name">What\'s in this App</string>
+    <string name="fragment1_get_started_name">Get Started</string>
+
+    <!-- _________Fragment 2__________ -->
+    <string name="fragment2_title_name">Stay Tuned</string>
+    <string name="fragment1_description_name">Get the latest updates of the workshops. Don\'t miss out any!</string>
+
+    <!-- _________Fragment 3__________ -->
+    <string name="fragment3_title_name">Earn Points</string>
+    <string name="fragment3_description_name">You can earn loyalty points by coming to our workshops, then win cool prizes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--DrawerArray-->
+    <string name="drawer_my_profile">My Profile</string>
+    <string name="drawer_Home">Home</string>
+    <string name="drawer_Posts">Posts</string>
+    <string name="drawer_Gallery">Gallery</string>
+    <string name="drawer_Messages">Messages</string>
+    <string name="drawer_Settings">Settings</string>
+    <string name="drawer_covidinfo">Covid Info</string>
+    <string name="drawer_login">Log In</string>
+    <string name="drawer_logout">Log Out</string>
+    <string name="drawer_admin">Manage</string>
+
+    <!-- Retailer-->
+    <string name="retailer_title">Don\'t miss out\nanything!</string>
+    <string name="retailer_tag_line">If you log in, then you can achieve more with this app!</string>
+    <string name="retailer_login">Login</string>
+    <string name="retailer_signUp">Sign Up</string>
+    <string name="retailer_how_this_works">How this works?</string>
+
+    <!-- Login ****** Register-->
+    <string name="retailer_login_username">Enter Username</string>
+    <string name="retailer_login_password">Enter Password</string>
+    <string name="retailer_login_rememberme">Remember Me</string>
+    <string name="retailer_login_forgottenpasword">Forgot Passowrd?</string>
+    <string name="retailer_login_create_account">Create a New\nAccount</string>
+    <string name="retailer_signup_first_name">First Name</string>
+    <string name="retailer_signup_last_name">Last Name</string>
+    <string name="retailer_signup_password">Enter a Password</string>
+    <string name="retailer_signup_confirm_passowd">Confirm Password</string>
+    <string name="retailer_signup_username">Enter a Username</string>
+    <string name="retailer_signup_email">Enter Your Email</string>
+    <string name="retailer_signup_next">Next</string>
+    <string name="retailer_signup_choose_gender">Choose Gender</string>
+    <string name="retailer_signup_male_gender">Male</string>
+    <string name="retailer_signup_female_gender">Female</string>
+    <string name="retailer_signup_select_age">Select Your Age</string>
+
+    <!-- Register Errors-->
+    <string name="retailer_signup_error_cannot_be_empty">Field can not be empty!</string>
+    <string name="retailer_signup_error_long_username">Username is too Long!</string>
+    <string name="retailer_signup_error_short_username">Username is too Short!</string>
+    <string name="retailer_signup_error_no_whitespace_username">No whitespaces are allowed!</string>
+    <string name="retailer_signup_error_no_gender_selected">Please choose your gender</string>
+    <string name="retailer_signup_error_wrong_age_selected">User is too young to register!</string>
+    <string name="retailer_signup_error_password_at_least_size">Password must contain at least 6 characters!</string>
+    <string name="retailer_signup_error_password_at_least_chars">Password must contains letters or numbers only!</string>
+    <string name="retailer_signup_error_passwords_match">Passwords don\'t match!</string>
+
+    <!--Please log in on the profile fragment -->
+    <string name="profile_please_attention">To use this tab, please login or sign up</string>
+
+    <!--Hello on the profile fragment -->
+    <string name="profile_morning">Good Morning,</string>
+    <string name="profile_day">Hello,</string>
+    <string name="profile_evening">Good Evening,</string>
+
+
+    <!--Honorific on the profile fragment -->
+    <string name="honorific_male">Mr.</string>
+    <string name="honorific_female">Ms.</string>
+
+    <!--User Details on the profile fragment -->
+    <string name="profile_user_information_label">User Information</string>
+    <string name="profile_user_information_edit_label">Modify</string>
+    <string name="profile_first_name">First Name</string>
+    <string name="profile_last_name">Last Name</string>
+    <string name="profile_email_name">Email</string>
+    <string name="profile_save_changes">Save Changes</string>
+    <string name="profile_cancel_changes">Cancel</string>
+
+    <!-- Gallery Itme-->
+    <string name="gallery_item_option_title">Title</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Add New Post Dialog-->
+    <string name="add_post_dialog_title">Title</string>
+    <string name="add_post_dialog_body">Body</string>
+    <string name="add_post_dialog_send_post">Post</string>
+    <string name="add_post_dialog_cancel_post">Cancel</string>
+    <string name="add_post_dialog_tag">Tags</string>
+    <string name="add_post_dialog_category">Category</string>
+    <string name="add_post_dialog_post_error">Something went wrong!</string>
+
+    <!-- Add New Image Dialog-->
+    <string name="add_image_select_image">Select Image</string>
+    <string name="add_image_upload_image">Upload</string>
+    <string name="add_image_title">Title</string>
+    <string name="add_image_group">Image Group</string>
+    <string name="add_image_group_helper">*optional (affects the web view)</string>
+
+
+</resources>

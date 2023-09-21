@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kreastol Közösség</string>
+    <string name="powerd_by">Készítette Hegedűs Joshua</string>
+    <string name="skip_name">Kihagyás</string>
+
+    <!-- OnboardingFragments Screens -->
+    <!-- _________Fragment 1__________ -->
+    <string name="fragment1_bar1_name">Üdvözlünk a</string>
+    <string name="fragment1_bar2_name">Kreastol applikációban.</string>
+    <string name="fragment1_question_name">Mit lehet itt találni?</string>
+    <string name="fragment1_get_started_name">Kezdjünk bele</string>
+
+    <!-- _________Fragment 2__________ -->
+    <string name="fragment2_title_name">Maradj Naprakész</string>
+    <string name="fragment2_description_name">Amikor be vagy jelentkezve, akkor tudsz posztolni, vagy képet feltölteni, a Posztok vagy Galéria lapon.</string>
+
+    <!-- _________Fragment 3__________ -->
+    <string name="fragment3_title_name">Gyűjts Pontokat</string>
+    <string name="fragment3_description_name">Azzal, hogy eljársz foglalkozásainkra, hűségpontokat kaphatsz és nyerhetsz menő nyereményeket!</string>
+
+    <!--DrawerArray-->
+    <string name="drawer_my_profile">Profilom</string>
+    <string name="drawer_Home">Otthon</string>
+    <string name="drawer_Posts">Posztok</string>
+    <string name="drawer_Gallery">Galéria</string>
+    <string name="drawer_Messages">Üzenetek</string>
+    <string name="drawer_Settings">Beállítások</string>
+    <string name="drawer_covidinfo">Covid Info</string>
+    <string name="drawer_login">Bejelentkezés</string>
+    <string name="drawer_logout">Kijelentkezés</string>
+    <string name="drawer_admin">Kezelés</string>
+
+    <!-- Retailer-->
+    <string name="retailer_title">Ne hagyj ki semmit!</string>
+    <string name="retailer_tag_line">Ha bejelntkezel, még többet elérhetsz az applikációval!</string>
+    <string name="retailer_login">Bejelentkezés</string>
+    <string name="retailer_signUp">Regisztráció</string>
+    <string name="retailer_how_this_works">Hogyan működik?</string>
+
+    <!-- Login ****** Register-->
+    <string name="retailer_login_username">Felhasználónév</string>
+    <string name="retailer_login_password">Jelszó</string>
+    <string name="retailer_login_rememberme">Emlékezz rám</string>
+    <string name="retailer_login_forgottenpasword">Elfelejtett jelszó</string>
+    <string name="retailer_login_create_account">Új fiók létrehozása</string>
+    <string name="retailer_signup_first_name">Keresztnév</string>
+    <string name="retailer_signup_last_name">Vezetéknév</string>
+    <string name="retailer_signup_password">Jelszó</string>
+    <string name="retailer_signup_confirm_passowd">Jelszó megerősítése</string>
+    <string name="retailer_signup_username">Felhasználónév</string>
+    <string name="retailer_signup_email">Email cím</string>
+    <string name="retailer_signup_next">Következő</string>
+    <string name="retailer_signup_choose_gender">Nem</string>
+    <string name="retailer_signup_male_gender">Férfi</string>
+    <string name="retailer_signup_female_gender">Nő</string>
+    <string name="retailer_signup_select_age">Válaszd ki a korod</string>
+
+    <!-- Register Errors-->
+    <string name="retailer_signup_error_cannot_be_empty">A mező nem lehet üres!</string>
+    <string name="retailer_signup_error_long_username">A felhasználónév túl hosszú!</string>
+    <string name="retailer_signup_error_short_username">A felhasználónév túl rövid!</string>
+    <string name="retailer_signup_error_no_whitespace_username">Nem engedélyezett a szóköz a felhasználónévben!</string>
+    <string name="retailer_signup_error_no_gender_selected">Kérlek válasz nemet</string>
+    <string name="retailer_signup_error_wrong_age_selected">Túl fiatal vagy a bejelentkezéshez!</string>
+    <string name="retailer_signup_error_password_at_least_size">A jelszó legalább 6 karaktert kell tartalmazzon!</string>
+    <string name="retailer_signup_error_password_at_least_chars">A jelszóban csak számok és betűk lehetnek!</string>
+    <string name="retailer_signup_error_passwords_match">A jelszavak nem egyeznek!</string>
+
+
+    <!--Please log in on the profile fragment -->
+    <string name="profile_please_attention">Ahhoz, hogy haszálhasd ezt a fület, be kell jelentkezz!</string>
+
+    <!--Hello on the profile fragment -->
+    <string name="profile_morning">Jó reggelt,</string>
+    <string name="profile_day">Szép napot,</string>
+    <string name="profile_evening">Jó estét,</string>
+
+
+    <!--Honorific on the profile fragment -->
+    <string name="honorific_male">Mr.</string>
+    <string name="honorific_female">Ms.</string>
+
+    <!--User Details on the profile fragment -->
+    <string name="profile_user_information_label">Felhasználói információ</string>
+    <string name="profile_user_information_edit_label">Módosítás</string>
+    <string name="profile_first_name">Keresztnév</string>
+    <string name="profile_last_name">Vezetéknév</string>
+    <string name="profile_email_name">Email</string>
+    <string name="profile_save_changes">Változtatások mentése</string>
+    <string name="profile_cancel_changes">Mégse</string>
+
+    <!-- Gallery Itme-->
+    <string name="gallery_item_option_title">Cím</string>
+    <!--    <string name="title_activity_main">MainActivity</string>-->
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Következő</string>
+    <string name="previous">Előző</string>
+
+
+    <!-- Add New Post Dialog-->
+    <string name="add_post_dialog_title">Cím</string>
+    <string name="add_post_dialog_body">Tárgyalás</string>
+    <string name="add_post_dialog_send_post">Posztolás</string>
+    <string name="add_post_dialog_cancel_post">Mégsem</string>
+    <string name="add_post_dialog_tag">Tag-ek</string>
+    <string name="add_post_dialog_category">Kategória</string>
+    <string name="add_post_dialog_post_error">Valamilyen hiba történt!</string>
+
+    <!-- Add New Image Dialog-->
+    <string name="add_image_select_image">Kép kiválasztása</string>
+    <string name="add_image_upload_image">Feltöltés</string>
+    <string name="add_image_title">Cím</string>
+    <string name="add_image_group">Kép csoport</string>
+    <string name="add_image_group_helper">*csak az internetes verziót befolyásolja</string>
+
+
+    <!--Settings Fragmet-->
+    <string name="settings_fragmet_language_category">Nyelv</string>
+    <string name="settings_fragmet_language_choose_language">Válassz egy nyelvet</string>
+    <string name="settings_fragmet_theme_category">Szín</string>
+    <string name="settings_fragmet_theme_select_title">Téma</string>
+    <string name="settings_fragmet_theme_mode_select">Sötét mód beállítások</string>
+    <string name="settings_fragmet_theme_force_dark">Sötét mód</string>
+    <string name="settings_fragmet_theme_force_dark_on">Be</string>
+    <string name="settings_fragmet_theme_force_dark_off">Ki</string>
+    <string name="settings_fragmet_theme_auto_select">Autómatikus\nsötét mód</string>
+    <string name="settings_fragmet_theme_system_based">Rendszer alapú</string>
+
+    <!-- Lang menu -->
+
+    <string name="choose_a_language">Nyelv kiválasztása</string>
+    <string name="profile_user_information_points_sum">Pontok: %d</string>
+    <string name="add_image_upload_image_in_progress">Feltöltés..</string>
+    <string name="enter_for_verification">6 jegyű szám az email-ből</string>
+
+</resources>

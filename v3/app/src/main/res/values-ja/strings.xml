@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">クレアストール・コミュニティ</string>
+        <string name="powerd_by">ヘゲディスジョシュアで作成されています</string>
+        <string name="skip_name">スキップ</string>
+
+        <!-- OnboardingFragments Screens -->
+        <!-- _________Fragment 1__________ -->
+        <string name="fragment1_bar1_name">クレアストールの\nアップリへ</string>
+        <string name="fragment1_bar2_name">ようこそ</string>
+        <string name="fragment1_question_name">このアプリで何ですか。</string>
+        <string name="fragment1_get_started_name">始めましょう</string>
+
+        <!-- _________Fragment 2__________ -->
+        <string name="fragment2_title_name">最新に保つ</string>
+        <string name="fragment1_description_name">ワークショップの最新情報を入手しよう。お見逃しなく!</string>
+
+        <!-- _________Fragment 3__________ -->
+        <string name="fragment3_title_name">ポイントを獲得</string>
+        <string name="fragment3_description_name">ワークショップに参加してポイントを獲得し、クールな賞品を獲得することができます。</string>
+
+        <!--DrawerArray-->
+        <string name="drawer_my_profile">プロフィール</string>
+        <string name="drawer_Home">ホーム</string>
+        <string name="drawer_Posts">投稿</string>
+        <string name="drawer_Gallery">画廊</string>
+        <string name="drawer_Messages">メッセージ</string>
+        <string name="drawer_Settings">設定</string>
+        <string name="drawer_covidinfo">コロナの情報</string>
+        <string name="drawer_login">ログイン</string>
+        <string name="drawer_logout">ロッグアウト</string>
+        <string name="drawer_admin">管理する</string>
+
+        <!-- Retailer-->
+        <string name="retailer_title">何も\nお見逃しなく</string>
+        <string name="retailer_tag_line">ログインすると、このアプリでより多くのことを達成できます！</string>
+        <string name="retailer_login">ログイン</string>
+        <string name="retailer_signUp">登録</string>
+
+        <!-- Login ****** Register-->
+        <string name="retailer_login_username">ユーザー名を入力してください</string>
+        <string name="retailer_login_password">パスワードを入力してくださ</string>
+        <string name="retailer_login_rememberme">私を覚えてます</string>
+        <string name="retailer_login_forgottenpasword">パスワードを忘れた。</string>
+        <string name="retailer_login_create_account">新しい\nアカウントを作る</string>
+        <string name="retailer_signup_first_name">名</string>
+        <string name="retailer_signup_last_name">苗字</string>
+        <string name="retailer_signup_password">パスワードを入力して</string>
+        <string name="retailer_signup_confirm_passowd">パスワードを認証して</string>
+        <string name="retailer_signup_username">ユーザー名を入力して</string>
+        <string name="retailer_signup_email">メールアドレスを入力して</string>
+        <string name="retailer_signup_next">次</string>
+        <string name="retailer_signup_choose_gender">性別を選択してください</string>
+        <string name="retailer_signup_male_gender">男性</string>
+        <string name="retailer_signup_female_gender">女性</string>
+        <string name="retailer_signup_select_age">年齢を選択してください</string>
+
+        <!-- Register Errors-->
+        <string name="retailer_signup_error_cannot_be_empty">フィールドを空にすることはできません！</string>
+        <string name="retailer_signup_error_long_username">ユーザー名が長すぎます！</string>
+        <string name="retailer_signup_error_short_username">ユーザー名が短すぎます！</string>
+        <string name="retailer_signup_error_no_whitespace_username">空白は許可されていません。</string>
+        <string name="retailer_signup_error_no_gender_selected">性別をお選びください</string>
+        <string name="retailer_signup_error_wrong_age_selected">ユーザーは若すぎて登録できません！</string>
+        <string name="retailer_signup_error_password_at_least_size">パスワードには6文字以上が含まれている必要があります。</string>
+        <string name="retailer_signup_error_password_at_least_chars">パスワードには文字または数字のみを含める必要があります。</string>
+        <string name="retailer_signup_error_passwords_match">パスワードが一致しません!</string>
+
+        <!--Please log in on the profile fragment -->
+        <string name="profile_please_attention">このタブを使用するには、ログインまたはサインアップしてください</string>
+
+        <!--Hello on the profile fragment -->
+        <string name="profile_morning">おはよう、</string>
+        <string name="profile_day">こんにちは</string>
+        <string name="profile_evening">こんばんは、</string>
+
+        <!--Hello on the profile fragment -->
+        <string name="honorific_male">さん</string>
+        <string name="honorific_female">さん</string>
+
+        <!--User Details on the profile fragment -->
+        <string name="profile_user_information_label">ユーザー情報</string>
+        <string name="profile_user_information_edit_label">変更</string>
+        <string name="profile_first_name">名</string>
+        <string name="profile_last_name">苗字</string>
+        <string name="profile_email_name">電メール</string>
+        <string name="profile_save_changes">変更内容を保存</string>
+        <string name="profile_cancel_changes">キャンセル</string>
+
+        <!-- Gallery Itme-->
+        <string name="gallery_item_option_title">題名</string>
+        <!--    <string name="title_activity_main">MainActivity</string>-->
+
+        <!-- Strings used for fragments for navigation -->
+        <string name="next">次</string>
+        <string name="previous">前</string>
+
+
+        <!-- Add New Post Dialog-->
+        <string name="add_post_dialog_title">題名</string>
+        <string name="add_post_dialog_body">Body</string>
+        <string name="add_post_dialog_send_post">投稿します</string>
+        <string name="add_post_dialog_cancel_post">キャンセル</string>
+        <string name="add_post_dialog_tag">タグ</string>
+        <string name="add_post_dialog_category">カテゴリー</string>
+        <string name="add_post_dialog_post_error">何かがうまくいかなかった！</string>
+
+        <!-- Add New Image Dialog-->
+        <string name="add_image_select_image">画像を選択</string>
+        <string name="add_image_upload_image">アップロード</string>
+        <string name="add_image_title">題名</string>
+        <string name="add_image_group">画像グループ</string>
+        <string name="add_image_group_helper">*オプション（Webビューに影響します）</string>
+
+
+        <!--Settings Fragmet-->
+        <string name="settings_fragmet_language_category">言語</string>
+        <string name="settings_fragmet_language_choose_language">言語を選択してください</string>
+        <string name="settings_fragmet_theme_category">色</string>
+        <string name="settings_fragmet_theme_select_title">テーム</string>
+        <string name="settings_fragmet_theme_mode_select">ダークモードの設定</string>
+        <string name="settings_fragmet_theme_force_dark">ダークモード</string>
+        <string name="settings_fragmet_theme_force_dark_on">オン</string>
+        <string name="settings_fragmet_theme_force_dark_off">オフ</string>
+        <string name="settings_fragmet_theme_auto_select">自動ダークモード</string>
+        <string name="settings_fragmet_theme_system_based">システムベース</string>
+
+        <string name="choose_a_language">言語を選択する</string>
+    <string name="fragment2_description_name">ログインすると、[投稿]タブと[ギャラリー]タブでそれぞれ画像を投稿またはアップロードできます。</string>
+        <string name="retailer_how_this_works">これはどのように機能しますか？</string>
+        <string name="profile_user_information_points_sum">点数: %d</string>
+        <string name="add_image_upload_image_in_progress">アップロードちゅ</string>
+        <string name="enter_for_verification">電子メールからの6桁の番号</string>
+
+
+</resources>

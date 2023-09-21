@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="249" height="155" viewBox="0 0 249 155">
+  <defs>
+    <filter id="パス_13" x="0" y="0" width="155" height="155" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="パス_11" x="32" y="0" width="151" height="155" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="パス_15" x="62" y="0" width="160" height="155" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="パス_12" x="94" y="0" width="155" height="155" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="futuristic_preview" transform="translate(-388 1422)">
+    <g transform="matrix(1, 0, 0, 1, 388, -1422)" filter="url(#パス_13)">
+      <path id="パス_13-2" data-name="パス 13" d="M68.5,0A68.5,68.5,0,1,1,0,68.5,68.5,68.5,0,0,1,68.5,0Z" transform="translate(9 2)" fill="#2c3531"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 388, -1422)" filter="url(#パス_11)">
+      <path id="パス_11-2" data-name="パス 11" d="M66.5,0C103.227,0,133,30.668,133,68.5S103.227,137,66.5,137,0,106.331,0,68.5,29.773,0,66.5,0Z" transform="translate(41 2)" fill="#116466"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 388, -1422)" filter="url(#パス_15)">
+      <path id="パス_15-2" data-name="パス 15" d="M71,0c39.212,0,71,30.668,71,68.5S110.212,137,71,137,0,106.331,0,68.5,31.788,0,71,0Z" transform="translate(71 2)" fill="#d9b08c"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 388, -1422)" filter="url(#パス_12)">
+      <path id="パス_12-2" data-name="パス 12" d="M68.5,0A68.5,68.5,0,1,1,0,68.5,68.5,68.5,0,0,1,68.5,0Z" transform="translate(103 2)" fill="#ffcb9a"/>
+    </g>
+  </g>
+</svg>

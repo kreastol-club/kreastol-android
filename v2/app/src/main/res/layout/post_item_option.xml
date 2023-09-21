@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_alignParentStart="true"
+                android:id="@+id/post_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/custom_special_epic"
+                android:text="title"
+                android:textColor="@color/primary1"
+                android:textSize="24sp"/>
+
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/post_poster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/custom_light"
+                android:text="poster"
+                android:textColor="@color/primary1"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:textSize="17sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/post_body"
+            android:layout_marginVertical="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/custom_regular"
+            android:text="body"
+            android:textColor="@color/primary1"/>
+
+
+        <RelativeLayout
+            android:paddingHorizontal="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_alignParentStart="true"
+                android:id="@+id/post_date"
+                android:textSize="20sp"
+                android:fontFamily="@font/custom_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:textColor="@color/primary1"
+                />
+
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:id="@+id/post_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/custom_semibold"
+                android:text="TextView"
+                android:textColor="@color/primary1" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/post_break" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+</LinearLayout>

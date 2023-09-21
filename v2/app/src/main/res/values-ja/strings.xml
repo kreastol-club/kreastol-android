@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Kreastol Community</string>
+        <string name="powerd_by">Powered By Joshua Hegedus</string>
+        <string name="skip_name">スキップ</string>
+
+        <!-- OnboardingFragments Screens -->
+        <!-- _________Fragment 1__________ -->
+        <string name="fragment1_bar1_name">クレアストールの\nアップリへ</string>
+        <string name="fragment1_bar2_name">ようこそ</string>
+        <string name="fragment1_question_name">What\'s in this App</string>
+        <string name="fragment1_get_started_name">始めましょう</string>
+
+        <!-- _________Fragment 2__________ -->
+        <string name="fragment2_title_name">Stay Tuned</string>
+        <string name="fragment1_description_name">Get the latest updates of the workshops. Don\'t miss out any!</string>
+
+        <!-- _________Fragment 3__________ -->
+        <string name="fragment3_title_name">Earn Points</string>
+        <string name="fragment3_description_name">You can earn loyalty points by coming to our workshops, then win cool prizes</string>
+        <!-- TODO: Remove or change this placeholder text -->
+
+        <!--DrawerArray-->
+        <string name="drawer_my_profile">My Profile</string>
+        <string name="drawer_Home">ホーム</string>
+        <string name="drawer_Posts">投稿</string>
+        <string name="drawer_Gallery">Gallery</string>
+        <string name="drawer_Messages">Messages</string>
+        <string name="drawer_Settings">設定</string>
+        <string name="drawer_covidinfo">コロナの情報</string>
+        <string name="drawer_login">ログイン</string>
+        <string name="drawer_logout">ロッグアウト</string>
+        <string name="drawer_admin">管理する</string>
+
+        <!-- Retailer-->
+        <string name="retailer_title">何も\nお見逃しなく</string>
+        <string name="retailer_tag_line">ログインすると、このアプリでより多くのことを達成できます！</string>
+        <string name="retailer_login">ログイン</string>
+        <string name="retailer_signUp">登録</string>
+
+        <!-- Login ****** Register-->
+        <string name="retailer_login_username">ユーザー名を入力してください</string>
+        <string name="retailer_login_password">パスワードを入力してくださ</string>
+        <string name="retailer_login_rememberme">Remember Me</string>
+        <string name="retailer_login_forgottenpasword">パスワードを忘れた。</string>
+        <string name="retailer_login_create_account">新しい\nアカウントを作る</string>
+        <string name="retailer_signup_first_name">First Name</string>
+        <string name="retailer_signup_last_name">Last Name</string>
+        <string name="retailer_signup_password">Enter a Password</string>
+        <string name="retailer_signup_confirm_passowd">Confirm Password</string>
+        <string name="retailer_signup_username">Enter a Username</string>
+        <string name="retailer_signup_email">Enter Your Email</string>
+        <string name="retailer_signup_next">Next</string>
+        <string name="retailer_signup_choose_gender">Choose Gender</string>
+        <string name="retailer_signup_male_gender">Male</string>
+        <string name="retailer_signup_female_gender">Female</string>
+        <string name="retailer_signup_select_age">Select Your Age</string>
+
+        <!-- Register Errors-->
+        <string name="retailer_signup_error_cannot_be_empty">Field can not be empty!</string>
+        <string name="retailer_signup_error_long_username">Username is too Long!</string>
+        <string name="retailer_signup_error_short_username">Username is too Short!</string>
+        <string name="retailer_signup_error_no_whitespace_username">No whitespaces are allowed!</string>
+        <string name="retailer_signup_error_no_gender_selected">Please choose your gender</string>
+        <string name="retailer_signup_error_wrong_age_selected">User is too young to register!</string>
+        <string name="retailer_signup_error_password_at_least_size">Password must contain at least 6 characters!</string>
+        <string name="retailer_signup_error_password_at_least_chars">Password must contains letters or numbers only!</string>
+        <string name="retailer_signup_error_passwords_match">Passwords don\'t match!</string>
+
+        <!--Please log in on the profile fragment -->
+        <string name="profile_please_attention">To use this tab, please login or sign up</string>
+
+        <!--Hello on the profile fragment -->
+        <string name="profile_morning">おはよう、</string>
+        <string name="profile_day">こんにちは</string>
+        <string name="profile_evening">こんばんは、</string>
+
+        <!--Hello on the profile fragment -->
+        <string name="honorific_male">さん</string>
+        <string name="honorific_female">さん</string>
+
+        <!--User Details on the profile fragment -->
+        <string name="profile_first_name">名</string>
+        <string name="profile_last_name">苗字</string>
+        <string name="profile_email_name">電メール</string>
+
+</resources>

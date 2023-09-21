@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface"
+    android:orientation="vertical"
+    tools:context=".User.DashboardFragments.HomeFragment">
+
+<!--    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="220dp"
+            android:src="@drawable/title_logo"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>-->
+
+    <!--<LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+&lt;!&ndash;        <com.google.android.material.floatingactionbutton.FloatingActionButton&ndash;&gt;
+&lt;!&ndash;            android:visibility="gone"&ndash;&gt;
+&lt;!&ndash;            android:id="@+id/add_post_and_image_floating_button"&ndash;&gt;
+&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;
+&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;
+&lt;!&ndash;            android:layout_margin="10dp"&ndash;&gt;
+&lt;!&ndash;            app:backgroundTint="?attr/colorPrimary"&ndash;&gt;
+&lt;!&ndash;            android:clickable="true"&ndash;&gt;
+&lt;!&ndash;            android:focusable="true"&ndash;&gt;
+&lt;!&ndash;            android:src="@drawable/add_icon" />&ndash;&gt;
+    </LinearLayout>-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_alignParentTop="true"
+        android:id="@+id/home_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
